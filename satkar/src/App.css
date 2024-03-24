@@ -1,0 +1,78 @@
+.about {
+  opacity: .6;
+}
+
+.about:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.svghov {
+  background-color: #a7ebff;
+  padding: 5px;
+  border: 8px solid rgb(0, 0, 0);
+}
+
+.svghov:hover {
+  color: #ffffff;
+  border: 8px solid rgb(255, 255, 255);
+  transition: all;
+}
+
+.svghovmod {
+  background-color: #ead3fd;
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 0;
+  
+}
+
+.svghovmod:hover {
+  color: #ffffff;
+  border: 8px solid rgb(255, 255, 255);
+  transition: all;
+}
+
+
+.opac {
+  opacity: 1;
+}
+
+.opac:hover {
+  opacity: 0.7;
+}
+
+
+.svghovmodju {
+  background-color: #a7ebff;
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 0;
+}
+
+.svghovmodju:hover {
+  color: #ffffff;
+  border: 8px solid rgb(255, 255, 255);
+  transition: all;
+}
+
+
+
+.swiper {
+  width: 250px;
+  height: 250px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
