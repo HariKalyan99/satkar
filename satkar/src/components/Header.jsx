@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top bg-info-subtle rounded-5 m-1 m-ms-2 m-md-5 p-0 p-md-1 p-lg-3" aria-label="Eleventh navbar example" >
+    <nav className="navbar navbar-expand-md navbar-light fixed-top bg-info-subtle rounded-5 m-3 m-md-4 m-lg-5 p-0 p-md-1 p-lg-3" aria-label="Eleventh navbar example" >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
             <img src={logo} alt="" height={40}/>

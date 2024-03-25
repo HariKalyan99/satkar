@@ -10,12 +10,12 @@ const Dashboard = () => {
     <main className="">
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide mb-5 m-3 m-sm-0"
+        className="carousel slide mb-5 mt-5 m-sm-0 "
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={hero} className="d-block w-100" alt="..." />
+            <img src={hero} className="d-block w-100 " alt="..." />
           </div>
           <div className="carousel-item">
             <img src={hero} className="d-block w-100" alt="..." />
