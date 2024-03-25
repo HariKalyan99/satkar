@@ -7,7 +7,12 @@ function App() {
   return (
    <div>
      <Header />
+     
      <Dashboard />
+
+
+    
+
    </div>
   )
 }

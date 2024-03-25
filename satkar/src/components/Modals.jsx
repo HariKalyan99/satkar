@@ -17,11 +17,11 @@ const Modals = ({flavor,content}) => {
         onCancel={() => setModal2Open(false)}
         footer={[
           ]}
-          
+        
       >
        
 
-        <h5>{content}</h5>
+        <h5 className='p-5 bg-info-subtle'>{content}</h5>
         
       </Modal>
     </>

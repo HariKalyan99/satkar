@@ -9,7 +9,7 @@
 
 .svghov {
   background-color: #a7ebff;
-  padding: 5px;
+  padding: 1px;
   border: 8px solid rgb(0, 0, 0);
 }
 
@@ -45,7 +45,7 @@
 
 .svghovmodju {
   background-color: #f0d6f8;
-  border: 5px solid rgb(0, 0, 0);
+  border: 8px solid rgb(0, 0, 0);
   border-radius: 0;
 }
 
@@ -72,18 +72,3 @@
   background-color: rgb(255, 255, 255);
 }
 
-/* .swiper-container {
-  width: 500px;
-}
-
-@media screen and (min-width: 640px) {
-  .swiper-container {
-    width: 300px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .swiper-container {
-    width: 400px;
-  }
-} */

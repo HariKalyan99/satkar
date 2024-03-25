@@ -1,13 +1,18 @@
 import React from "react";
 import hero from "../assets/hero.png";
+import hero2 from "../assets/hero2.png";
+import hero3 from "../assets/hero3.png";
 import Jumbotron from "./Jumbotron";
 import Modals from "./Modals";
-import Swipers from "./Swipers";
 import Testimonials from "./Testimonials";
 import Jumbo from "./Jumbo";
+import { Tooltip } from "antd";
+import Hero from "./Hero";
+import Contact from "./Contact";
+import Accordions from "./Accordions";
 const Dashboard = () => {
   return (
-    <main className="">
+    <main >
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide mb-5 mt-5 m-sm-0 "
@@ -18,10 +23,10 @@ const Dashboard = () => {
             <img src={hero} className="d-block w-100 " alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={hero} className="d-block w-100" alt="..." />
+            <img src={hero2} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={hero} className="d-block w-100" alt="..." />
+            <img src={hero3} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -308,8 +313,14 @@ const Dashboard = () => {
             </p>
           </div>
         </div>
+        </div>
+          
+        <div>
+       <Hero />
 
-        <hr className="featurette-divider" />
+              </div>
+        <div className="container">
+
 
         <div className="row featurette ">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
@@ -319,14 +330,69 @@ const Dashboard = () => {
                 A Fusion of Fun and Flavor
               </span>
             </h2>
+            
 
-            <ul>
-              <li>Unicorn Dream</li>
 
-              <li>Avocado Smash</li>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center text-center ">
+              <Tooltip title={"Unicorn Dream"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://i.pinimg.com/736x/85/c8/07/85c807b0b6f451d8918d52afa23edfbb.jpg"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"Avocado Smash"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://www.wellplated.com/wp-content/uploads/2021/05/Avocado-Ice-Cream-from-Scratch.jpg"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"TikTok Tiramisu"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://thewoodandspoon.com/wp-content/uploads/2023/04/IMG_0282-jpg.webp"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            </div>
 
-              <li>TikTok Tiramisu</li>
-            </ul>
           </div>
           <div className="col-md-5 d-flex justify-content-center">
             <div
@@ -336,7 +402,7 @@ const Dashboard = () => {
                 border: "none",
                 overflow: "hidden",
                 opacity: "0.9",
-                borderTopRightRadius: "20%",
+                borderTopLeftRadius: "20%",
               }}
             >
               <img
@@ -359,13 +425,65 @@ const Dashboard = () => {
               </span>
             </h2>
 
-            <ul>
-              <li>Cold Brew Caramel Crunch</li>
-
-              <li>Acai Berry Blast</li>
-
-              <li>Mint Mojito Madness</li>
-            </ul>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center text-center ">
+              <Tooltip title={"Millennial Mocha Madness"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "40%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDkl6t3G_ledGj-uEJYya7RpNYmM9w2BbqK8mNLkhJQ&s"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"S'mores Spectacular"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "40%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYjIGT3B9B-EivmwXPFKXFwXaBFyI4w-PkGlOGAXbYAQ&s"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"Coconut Chai Cha-Cha"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://kitchenconfidante.com/wp-content/uploads/2012/07/Chai-Tea-Ice-Cream-Kitchen-Confidante-5-620x580.jpg"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            </div>
           </div>
           <div className="col-md-5 order-md-1 d-flex justify-content-center">
             <div
@@ -388,7 +506,7 @@ const Dashboard = () => {
         </div>
 
         <hr className="featurette-divider" />
-
+        
         <div className="row featurette">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-center">
             <h2 className="featurette-heading fw-normal lh-1 text-center">
@@ -398,13 +516,65 @@ const Dashboard = () => {
               </span>
             </h2>
 
-            <ul>
-              <li>Rainbow Unicorn Magic</li>
-
-              <li>Galactic Gummy Blast</li>
-
-              <li>Dinosaur Crunch</li>
-            </ul>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center text-center ">
+              <Tooltip title={"Fairy Princess Swirl"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2OS-gygQrUKrWAQBetdm55NjThkloQnsYnH1oo48wA&s"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"Dinosaur Crunch"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/628cc9f4e74da065413fc6b9/8edcd074-b819-43c8-a5a9-99a06c9adc7d/IMG_6927.jpeg?format=1000w"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            <Tooltip title={"Galactic Gummy Blast"}>
+            <div
+              style={{
+                height: "60px",
+                width: "60px",
+                margin: "10px",
+                border: "none",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+              className="opac"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIaqPkLgvszCHvGpyxH2wANErAEoL5cdB3E3YqXR53Q&s"
+                alt="content writing image"
+                style={{ objectFit: "cover", height: "60px", width: "60px" }}
+              />
+            </div>
+            </Tooltip>
+            </div>
           </div>
           <div className="col-md-5 d-flex justify-content-center">
             <div
@@ -414,11 +584,11 @@ const Dashboard = () => {
                 border: "none",
                 overflow: "hidden",
                 opacity: "0.9",
-                borderTopRightRadius: "20%",
+                borderTopLeftRadius: "20%",
               }}
             >
               <img
-                src="https://i.redd.it/62zeu6u6uxa71.jpg"
+                src="https://miro.medium.com/v2/resize:fill:1200:1200/g:fp:0.52:0.45/1*w0naUJw3hmWNXpmyyvy4qg.jpeg"
                 alt="content writing image"
                 style={{ objectFit: "cover", height: "300px", width: "300px" }}
               />
@@ -426,28 +596,32 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <hr className="featurette-divider" />
 
-        <h1 style={{ textAlign: "center" }}>Don't forget!</h1>
+       </div>
+
+              
+        
+       <div className="container mt-5">
+
+        {/* <h1 style={{ textAlign: "center" }}>Never forget!</h1> */}
 
         
         <div className="mb-4 rounded-3">
-          <div className="d-flex justify-content-center bg-info-subtle rounded-5 p-2">
+          <div className="d-flex justify-content-center rounded-5 p-2" style={{backgroundColor: "#f0d6f8"}}>
             <h2 className="featurette-heading fw-normal ">
               Embracing Nature's Essence:{" "}
-              <span className="text-body-secondary">
                 Our Natural Fruit Juice Selection
-              </span>
             </h2>
           </div>
         </div>
-        <p className="fw-bold text-center">
+        <p className="fw-light text-center">
           At Satkar, we celebrate the vibrant flavors and nourishing benefits of
           natural fruit juices. Our collection of pure fruit juices is a
           testament to our commitment to offering the freshest and most
           flavorful beverages for our customers.
         </p>
         <Jumbo />
+        
         
 
         {/* <div className="container">
@@ -481,16 +655,27 @@ const Dashboard = () => {
   </div>
          */}
         <hr className="featurette-divider" />
+        <div className="container-fluid">
+      <Contact />
+      </div>
       </div>
 
+      
+
+      
+      
       <h1 className="text-center">Customer satisfaction</h1>
 
       <div className="container">
       <Testimonials />
       </div>
+      <hr className="featurette-divider" />
+<div className="container">
+  <h1 className="text-center">FAQ's</h1>
+<Accordions />
+</div>
 
       <hr className="featurette-divider" />
-
       <footer className="container">
         <p className="float-end">
           <a href="#">Back to top</a>

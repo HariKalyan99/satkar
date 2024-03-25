@@ -10,8 +10,8 @@ const Juicedrawer = ({content, juice}) => {
   };
   return (
     <>
-      <button className='svghovmodju h-100' onClick={showDrawer} >
-        <span className='fw-light'>Don't drink and read</span>
+      <button className='svghovmodju' onClick={showDrawer} >
+        <span className='fw-bold'>Don't drink and read</span>
       </button>
       <Drawer title={juice} onClose={onClose} open={open} placement="bottom"
         closable={false} style={{backgroundColor: "#cfe4cf",  backgroundPosition: "center"}}>

@@ -12,7 +12,7 @@ const Drawers = () => {
     const containerStyle = {
         position: 'relative',
         height: 300,
-        padding: 48,
+        padding: 20,
         overflow: 'hidden',
         background: token.colorFillAlter,
         border: `1px solid ${token.colorBorderSecondary}`,

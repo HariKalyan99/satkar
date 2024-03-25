@@ -22,7 +22,7 @@ const Jumbotron = () => {
         </div>
       </div>
       <div className="col-md-6">
-        <div className="h-100 p-5 bg-body-tertiary border rounded-3" style={{backgroundImage: "url('https://i.pinimg.com/originals/96/41/3d/96413d30c99f381d26d7c37cf31f6db4.gif')", backgroundPosition: "top 100px left 150px"}}>
+        <div className="h-100 p-5 bg-body-tertiary border rounded-3" style={{backgroundImage: "url('https://i.pinimg.com/originals/96/41/3d/96413d30c99f381d26d7c37cf31f6db4.gif')", backgroundPosition: "top center"}}>
           <h2>Welcome to Satkar: Where Every Scoop Tells a Story</h2>
           <p>Our passion for creating exceptional ice cream drives everything we do. From sourcing the finest ingredients to perfecting our recipes, we pour our hearts into each batch we churn. But our story isn't just about the ice cream - it's about the people behind it.</p>
         </div>
