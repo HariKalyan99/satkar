@@ -2,7 +2,6 @@ import React from "react";
 import hero from "../assets/hero.png";
 import Jumbotron from "./Jumbotron";
 import Modals from "./Modals";
-import Cards from "./Cards";
 import Swipers from "./Swipers";
 import Testimonials from "./Testimonials";
 import Jumbo from "./Jumbo";
@@ -442,17 +441,18 @@ const Dashboard = () => {
             </h2>
           </div>
         </div>
-        <Jumbo />
         <p className="fw-bold text-center">
           At Satkar, we celebrate the vibrant flavors and nourishing benefits of
           natural fruit juices. Our collection of pure fruit juices is a
           testament to our commitment to offering the freshest and most
           flavorful beverages for our customers.
         </p>
+        <Jumbo />
+        
 
-        <div className="container">
+        {/* <div className="container">
           <Swipers />
-        </div>
+        </div> */}
 
         {/* <div class="album py-5">
     <div class="container">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Drawer } from 'antd';
+import { Drawer } from 'antd';
 const Juicedrawer = ({content, juice}) => {
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
@@ -10,9 +10,9 @@ const Juicedrawer = ({content, juice}) => {
   };
   return (
     <>
-      <Button type="none" className='svghovmodju h-100' onClick={showDrawer}>
+      <button className='svghovmodju h-100' onClick={showDrawer} >
         Click here!
-      </Button>
+      </button>
       <Drawer title={juice} onClose={onClose} open={open} placement="bottom"
         closable={false} >
         <p>{content}</p>
@@ -21,3 +21,12 @@ const Juicedrawer = ({content, juice}) => {
   );
 };
 export default Juicedrawer;
+
+// #f1daf9
+
+// #cff4fc
+
+
+// #fff3f3
+
+// #ffd0cf

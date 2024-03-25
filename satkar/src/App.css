@@ -20,7 +20,7 @@
 }
 
 .svghovmod {
-  background-color: #ead3fd;
+  background-color: #f0d6f8;
   padding: 10px;
   border: 5px solid rgb(0, 0, 0);
   border-radius: 0;
@@ -44,8 +44,7 @@
 
 
 .svghovmodju {
-  background-color: #a7ebff;
-  padding: 10px;
+  background-color: #cff4fc;
   border: 5px solid rgb(0, 0, 0);
   border-radius: 0;
 }
@@ -59,20 +58,32 @@
 
 
 .swiper {
-  width: 250px;
-  height: 250px;
+  min-width: 200px;
+  min-width: 200px;
 }
 
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
   font-size: 22px;
   font-weight: bold;
   color: #fff;
   background-color: rgb(255, 255, 255);
-  border-bottom-right-radius: 20%;
-  border-bottom-left-radius: 20%;
 }
 
+/* .swiper-container {
+  width: 500px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 400px;
+  }
+} */
