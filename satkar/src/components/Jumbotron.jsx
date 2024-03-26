@@ -16,12 +16,12 @@ const Jumbotron = () => {
     </div>
 
     <div className="row align-items-md-stretch">
-      <div className="col-md-6 about">
-        <div className="h-100 p-5 text-bg-dark rounded-3" style={{backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/027/688/179/non_2x/shot-of-freshly-delicious-ice-cream-free-photo.jpg')", backgroundPosition: "center"}}>
+      <div className="col-md-6 trans">
+        <div className="h-100 p-5 text-bg-dark rounded-3 " style={{backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/027/688/179/non_2x/shot-of-freshly-delicious-ice-cream-free-photo.jpg')", backgroundPosition: "center"}}>
             <Drawers />
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 trans">
         <div className="h-100 p-5 bg-body-tertiary border rounded-3" style={{backgroundImage: "url('https://i.pinimg.com/originals/96/41/3d/96413d30c99f381d26d7c37cf31f6db4.gif')", backgroundPosition: "top center"}}>
           <h2>Welcome to Satkar: Where Every Scoop Tells a Story</h2>
           <p>Our passion for creating exceptional ice cream drives everything we do. From sourcing the finest ingredients to perfecting our recipes, we pour our hearts into each batch we churn. But our story isn't just about the ice cream - it's about the people behind it.</p>

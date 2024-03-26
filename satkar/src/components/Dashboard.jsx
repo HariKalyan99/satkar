@@ -78,7 +78,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://www.homemadefoodjunkie.com/wp-content/uploads/2023/02/vanilla-bean-ice-cream-1024x1024.jpg.webp"
@@ -105,7 +105,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://img.freepik.com/premium-photo/coffee-toffee-crunch-ice-cream-delight-isolated-transparent-background_995162-9311.jpg"
@@ -132,7 +132,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxK5K9UTPTquZN2ImblJlVRIqc-g5l0GAGv-RKilOS3w&s"
@@ -159,7 +159,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphE0mWIzfHCTlq32TVcrQRpp32bM421B9qIIKab2KMw&s"
@@ -186,7 +186,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://beamingbaker.com/wp-content/uploads/2015/01/IGT-2-Ingredient-Pineapple-Coconut-Sorbet-Paleo-Dairy-Free-Vegan-1.jpg"
@@ -213,7 +213,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://celebrationgeneration.com/wp-content/uploads/2021/04/Maple-Walnut-Ice-Cream-2-500x375.jpg"
@@ -240,7 +240,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDmy83ezE2YJswd4zB-MLVWa_HgGJrtkbUa-XFcDOPqw&s"
@@ -267,7 +267,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://www.chewoutloud.com/wp-content/uploads/2013/08/cookies-and-cream-in-white-bowl.jpg"
@@ -294,7 +294,7 @@ const Dashboard = () => {
                 borderBottomLeftRadius: "40%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-JS77wHc0qABK5AVaxD-6Sl3EtAk3xZ4cB05RBziEA&s"
@@ -344,7 +344,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://i.pinimg.com/736x/85/c8/07/85c807b0b6f451d8918d52afa23edfbb.jpg"
@@ -363,7 +363,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://www.wellplated.com/wp-content/uploads/2021/05/Avocado-Ice-Cream-from-Scratch.jpg"
@@ -382,7 +382,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://thewoodandspoon.com/wp-content/uploads/2023/04/IMG_0282-jpg.webp"
@@ -433,10 +433,10 @@ const Dashboard = () => {
                 width: "60px",
                 margin: "10px",
                 border: "none",
-                borderRadius: "40%",
+                borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDkl6t3G_ledGj-uEJYya7RpNYmM9w2BbqK8mNLkhJQ&s"
@@ -452,10 +452,10 @@ const Dashboard = () => {
                 width: "60px",
                 margin: "10px",
                 border: "none",
-                borderRadius: "40%",
+                borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYjIGT3B9B-EivmwXPFKXFwXaBFyI4w-PkGlOGAXbYAQ&s"
@@ -474,7 +474,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://kitchenconfidante.com/wp-content/uploads/2012/07/Chai-Tea-Ice-Cream-Kitchen-Confidante-5-620x580.jpg"
@@ -527,7 +527,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2OS-gygQrUKrWAQBetdm55NjThkloQnsYnH1oo48wA&s"
@@ -546,7 +546,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://images.squarespace-cdn.com/content/v1/628cc9f4e74da065413fc6b9/8edcd074-b819-43c8-a5a9-99a06c9adc7d/IMG_6927.jpeg?format=1000w"
@@ -565,7 +565,7 @@ const Dashboard = () => {
                 borderRadius: "50%",
                 overflow: "hidden",
               }}
-              className="opac"
+              className="trans"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIaqPkLgvszCHvGpyxH2wANErAEoL5cdB3E3YqXR53Q&s"
